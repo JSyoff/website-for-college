@@ -4,8 +4,20 @@ body {
   padding: 0;
   text-align: center;
 }
+
 header {
   background-color: #4caf50;
   color: white;
   padding: 10px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__footer {
+  display: flex;
+  position: absolute;
+  bottom: 0px
 }
